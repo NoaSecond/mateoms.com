@@ -1,0 +1,94 @@
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* GENERAL */
+* {
+    transition: ease-in-out 0.25s;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25px 50px;
+    z-index: 9;
+}
+
+header>a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header>a.active {
+    font-weight: 600;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    background: #000000cf;
+    z-index: 9;
+}
+
+footer>div:not(:nth-child(2)) {
+    width: 30%;
+    display: flex;
+}
+
+footer>div:nth-child(1) {
+    justify-content: flex-start;
+}
+
+footer>div:nth-child(3) {
+    justify-content: flex-end;
+}
+
+footer * {
+    color: white;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+button {
+    border: solid white 1px;
+    background-color: transparent;
+    border-radius: 500px;
+    padding: 5px 25px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
