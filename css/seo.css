@@ -1,0 +1,68 @@
+body {
+    background-image: url('/assets/img/seoBackground.jpg');
+}
+
+div#title {
+    margin-left: 150px;
+    padding-top: 500px;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 150px;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+/* Paragraphes */
+div.paragraphes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 250px;
+    margin-bottom: 150px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div.paragraphes>h2 {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+div.paragraphes>button {
+    align-self: flex-end;
+}
+
+/* Contact */
+div#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+div#contact>h2 {
+    margin: 0;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 800;
+    color: white;
+    margin-right: 250px;
+}
+
+div#contact>div {
+    margin-top: 25px;
+}
+
+div#contact>div a {
+    margin: 0 10px;
+}
+
+div#contact>div img {
+    width: 25px;
+}
