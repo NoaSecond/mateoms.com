@@ -36,6 +36,9 @@ section:nth-child(1)>div>h2 {
 /* Section 2 */
 section:nth-child(2) {
     background-image: url('/assets/img/Section2Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 section:nth-child(2)>div {
