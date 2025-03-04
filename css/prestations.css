@@ -13,6 +13,7 @@ h1 {
     text-transform: uppercase;
     font-size: 3em;
     font-weight: 800;
+    line-height: 45px;
 }
 
 /* Section 1 */
@@ -137,13 +138,14 @@ section:nth-of-type(4)>h2 {
 section:nth-of-type(4)>img {
     width: 70%;
     align-self: center;
-    margin-bottom: 300px;
 }
 
 section:nth-of-type(4)>button {
     align-self: center;
     background-color: #ffffff0a;
     backdrop-filter: blur(5px);
+    margin-top: 50px;
+    margin-bottom: 350px;
 }
 
 section:nth-of-type(4) div#contact {

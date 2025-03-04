@@ -8,7 +8,8 @@
     transition: ease-in-out 0.25s;
     color: white;
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "quiet-sans", sans-serif;
+    font-style: normal;
 }
 
 html {
@@ -43,6 +44,7 @@ header>a {
     color: white;
     text-decoration: none;
     cursor: pointer;
+    font-weight: 300;
 }
 
 header>a.active {
@@ -56,8 +58,8 @@ footer {
     left: 0;
     display: flex;
     justify-content: space-between;
-    padding: 25px 50px;
-    background: #000000cf;
+    padding: 25px;
+    /* background: #000000cf; */
     z-index: 9;
 }
 
@@ -75,9 +77,10 @@ footer>div:nth-child(3) {
 }
 
 footer * {
-    color: white;
+    color: #ffffffb0;
     text-decoration: none;
     text-transform: lowercase;
+    font-weight: 100;
 }
 
 button {
