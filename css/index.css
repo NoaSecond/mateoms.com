@@ -190,6 +190,7 @@ section:nth-child(3) div#words_S3>h2 {
     text-align: end;
     font-size: 3em;
     font-weight: 800;
+    line-height: 45px;
 }
 
 section:nth-child(3) div#contact {
