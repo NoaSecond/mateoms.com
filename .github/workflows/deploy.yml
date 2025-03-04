@@ -30,7 +30,6 @@ jobs:
                         --exclude .vscode* \
                         --exclude .DS_Store* \
                         --exclude .editorconfig* \
-                        --exclude PHPMailer-6.9.1* \
                         . /"
       env:
         FTP_SERVER: ${{ secrets.FTP_SERVER }}
